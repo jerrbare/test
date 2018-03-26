@@ -1,0 +1,8 @@
+body {
+	background-color: rgb(255,255,255);
+}
+#about {
+	position:absolute;
+	left:200px;
+	text-decoration-color: rgb(255,255,255);
+}
