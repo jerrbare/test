@@ -15,9 +15,9 @@ hbs.registerHelper('getCurrentYear', () => {
 	return new Date().getFullYear();
 })
 
-app.use((request,response,next) => {
+// app.use((request,response,next) => {
 
-});
+// });
 
 app.get('/', (request,response) => {
 	response.render('menu.hbs', {
